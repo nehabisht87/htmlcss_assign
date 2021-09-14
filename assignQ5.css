@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100vh;
+}
+
+body {
+	display: grid;
+	place-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 8px;
+  border-spacing: 0;
+  overflow: hidden;
+}
+
+thead {
+  background-color:purple;
+  color:whitesmoke;
+	transform-style: preserve-3d;
+}
+
+th, td {
+    padding: 1rem;
+  }
+th:hover {
+    background-color:sandybrown;
+    color:black;
+  }
+
+  /* zebra striping */
+tbody tr:nth-child(odd) {
+    background-color:pink;
+  }
+  
+tbody tr:nth-child(even) {
+    background-color:plum;
+  }
